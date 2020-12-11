@@ -1,0 +1,321 @@
+body{
+    font-family: 微軟正黑體;
+    margin: 0px;
+    background: url(images/背景2.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+@media only screen and (min-height: 1230px){
+    body{
+        background: url(images/背景2.jpg) center center fixed no-repeat;
+        background-size: cover;
+    }
+}
+.top{
+    text-align: right;
+}
+.one,.three{
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+    height: auto;
+    width: 100%;
+}
+.title{
+    color: white;
+    position: relative;
+    top: 50px;
+    font-family: Showcard Gothic;
+}
+.title h1{
+    margin: 0 0 30px 0;
+}
+.introduction{
+    color: white;
+    position: relative;
+    font-size: 25px;
+    margin: 0 10px;
+}
+.two,.four,.five{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+}
+.four{
+    text-align: center; 
+    margin: 0 10px;
+}
+
+.five img{
+    position: relative;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.two-1 h2,.two-2 h2{
+    margin: 15px 40px;
+}
+.back{
+    position: relative; 
+    font-size: 50px; 
+    left: 50px;
+}
+.bottom{
+    position: relative;
+    margin: 20px 0;
+    height: 80px;
+    color: white;
+}
+.bottom li{
+    list-style-type:none; text-align:center;
+}
+a{
+    color: white;
+    text-decoration: none; /*隱藏底線*/
+}
+.link{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.title2{
+    margin: auto;
+    border-top: 3px white solid; 
+    border-bottom: 3px white solid;
+    text-align: center;
+}
+
+@media only screen and (max-width: 2000px){
+    .one,.three{
+        margin: 0 0 100px 0;
+    }
+    .title{
+        font-size: 75px;
+    }
+    .menu{
+        font-size: 25px;
+        border: 2px solid white;
+        border-radius: 3px;
+        margin: 0 auto;
+        width: 625px;
+    }
+    .menu li{
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        border-left: 2px solid white;
+        padding: 10px 0;
+    }
+    .three{
+        height: 400px;
+    }
+    .four{
+        font-size: 30px;
+        margin: 0;
+    }
+    .four img{
+        width: 500px;
+        height: 500px;
+    }
+    .title2{
+        width: 280px;
+        font-size: 30px;
+    }
+    .two-1,.two-2{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .two-1{
+        width: 50%;
+        float: left;
+    }
+    .two-2{
+        width: 50%;
+        float: right;
+    }
+    .two-1 p,.two-2 p{
+        margin: auto 30px;
+        text-align: left;
+    }
+    .link{
+        font-size: 40px;
+        letter-spacing: 30px; /*文字間距*/
+        line-height: 15px;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .one,.three{
+        margin: 0 0 100px 0;
+    }
+    .title{
+        font-size: 75px;
+    }
+    .menu{
+        font-size: 25px;
+        border: 2px solid white;
+        border-radius: 3px;
+        margin: 0 auto;
+        width: 625px;
+    }
+    .menu li{
+        margin: 0 auto;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        border-left: 2px solid white;
+        padding: 10px 0;
+    }
+    .three{
+        height: 400px;
+    }
+    .four, .two{
+        font-size: 25px;
+    }
+    .four img{
+        width: 500px;
+        height: 500px;
+    }
+    .title2{
+        width: 200px;
+        font-size: 20px;
+    }
+    .two-1,.two-2{
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .two-1{
+        width: 50%;
+        float: left;
+    }
+    .two-2{
+        width: 50%;
+        float: right;
+    }
+    .two-1 p,.two-2 p{
+        margin: auto 30px;
+        text-align: left;
+    }
+    .link{
+        font-size: 25px;
+        letter-spacing: 20px; /*文字間距*/
+        line-height: 10px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .two-1,.two-2{
+        font-size: 23px;
+        line-height: 35px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .two-1,.two-2{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .four img{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 740px){
+    .body{
+        font-size: 30px;
+    }
+    .two-1,.two-2{
+        position: relative;
+        font-size: 20px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .two-1 p,.two-2 p{
+        margin: 10px 30px 20px 30px;
+        text-align: center;
+    }
+    .five img{
+        width: 100%;
+    }
+    .menu{
+        font-size: 18px;
+        border: 2px solid white;
+        border-radius: 3px;
+        margin: 0 auto;
+        width: 150px;
+    }
+    .menu li{
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        display: block;
+        border-left: none;
+        border-bottom: 2px white solid;
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 570px){
+    .body{
+        font-size: 20px;
+    }
+    .one,.three{
+        margin: 0 0 70px 0;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .introduction{
+        font-size: 18px;
+    }
+    .menu{
+        font-size: 18px;
+        border: 2px solid white;
+        border-radius: 3px;
+        margin: 0 auto;
+        width: 150px;
+    }
+    .menu li{
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        display: block;
+        border-left: none;
+        border-bottom: 2px white solid;
+        padding: 10px 0;
+    }
+    .four{
+        font-size: 15px;
+    }
+    .four img{
+        width: 200px;
+        height: 200px;
+    }
+    .title2{
+        font-size: 13px;
+        width: 150px;
+    }
+    .three{
+        height: 330px;
+    }
+    .two-1,.two-2{
+        position: relative;
+        font-size: 15px;
+        line-height: 23px;
+        width: 100%;
+    }
+    .two-1 p,.two-2 p{
+        margin: 10px 30px 20px 30px;
+        text-align: left;
+    }
+    .five img{
+        width: 100%;
+    }
+    .link{
+        font-size: 25px;
+        letter-spacing: 20px; /*文字間距*/
+        line-height: 10px;
+    }
+}

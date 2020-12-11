@@ -1,0 +1,30 @@
+<div class="two">
+        <br>
+        <h1 style="margin: 1px 200px; text-align: center;border-top: 3px black solid; border-bottom: 3px black solid;">課程介紹</h1>
+        <h2>程式班</h2>
+        <p>
+            在程式班，我們主要會教CSS的基本語法
+            <br>
+            帶著大家一起解題，讓大家有基礎可以參加一些程式比賽
+        </p>
+        <h2>網頁美術班</h2>
+        <p>
+            在網美班，我們會教SAI和HTML
+            <br>
+            SAI主要會教基本工具和不同圖層的效果使用
+            <br>
+            HTML會教一些常用的標籤及簡單的CSS，讓大家可以寫出好看的網頁
+        </p>
+    </div>
+    <br>
+    <div class="three">
+        <h1 style="margin: 1px px; text-align: center;border-top: 3px black solid; border-bottom: 3px black solid;">活動介紹</h1>
+        <h2>迎新</h2>
+        <ul>
+            <li>日期：10/18</li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+ background-color: #344E91;
