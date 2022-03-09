@@ -102,7 +102,7 @@ a{
         border: 2px solid white;
         border-radius: 3px;
         margin: 0 auto;
-        width: 625px;
+        width: 790px;
     }
     .menu li{
         margin: 0 auto;
@@ -161,7 +161,7 @@ a{
         border: 2px solid white;
         border-radius: 3px;
         margin: 0 auto;
-        width: 625px;
+        width: 790px;
     }
     .menu li{
         margin: 0 auto;
@@ -214,6 +214,22 @@ a{
     }
 }
 @media only screen and (max-width: 1000px){
+    .menu{
+        font-size: 18px;
+        border: 2px solid white;
+        border-radius: 3px;
+        margin: 0 auto;
+        width: 150px;
+    }
+    .menu li{
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        display: block;
+        border-left: none;
+        border-bottom: 2px white solid;
+        padding: 10px 0;
+    }
     .two-1,.two-2{
         font-size: 18px;
         line-height: 27px;
